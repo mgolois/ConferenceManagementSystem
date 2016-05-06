@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D60E1A90-6DBC-4B1D-B8EB-431B88C58360}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B9297E3-630F-48DB-8A44-D8CF648614AB}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CMFIMaryland.Conference", "src\CMFIMaryland.Conference\CMFIMaryland.Conference.xproj", "{A030D680-15C3-42AF-9F9E-6A28B640539F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A030D680-15C3-42AF-9F9E-6A28B640539F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A030D680-15C3-42AF-9F9E-6A28B640539F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A030D680-15C3-42AF-9F9E-6A28B640539F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A030D680-15C3-42AF-9F9E-6A28B640539F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A030D680-15C3-42AF-9F9E-6A28B640539F} = {D60E1A90-6DBC-4B1D-B8EB-431B88C58360}
+	EndGlobalSection
+EndGlobal
